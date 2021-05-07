@@ -4,12 +4,16 @@
 	border-top: 0px;
 	padding: 5px 5px 5px 5px;
 	margin: 0px -10px 0px 0px;
-	width: 75px;
+	width: 100px;
 	font-family: Arial;
 	float: right;
 	text-align: center;
-	background-color: #B0C4DE;
-	color: black;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+.maintext {
+	font-family: Helvetica;
 }
 
 @media (min-width: 992px) {
