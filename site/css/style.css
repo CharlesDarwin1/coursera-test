@@ -1,0 +1,61 @@
+.psp {
+	border: 2px solid black;
+	border-right: 0px;
+	border-top: 0px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px -10px 0px 0px;
+	width: 100px;
+	font-family: Arial;
+	float: right;
+	text-align: center;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+.maintext {
+	font-family: Helvetica;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4, .space-lg {
+		float: left;
+		padding: 0px 10px 10px 10px;
+	}
+	.col-lg-4 {width: 30%; border: 2px solid black;}
+	.space-lg {
+		width: 5%;
+		float: left;
+		padding: 3px;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.space-md-1, .space-md-2, .col-md-6, .col-md-12 {
+		float: left;
+		padding: 0px 10px 10px 10px;
+	}
+	.col-md-6 {width: 45%; border: 2px solid black;}
+	.col-md-12 {width: 100%; border: 2px solid black;}
+	.space-md-2 {
+		width: 0%;
+		float: left;
+		padding: 0px;
+		margin: 0 auto;
+	}
+	.space-md-1 {
+		width: 10%;
+		float: left;
+		padding: 3px;
+		margin: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+		border: 2px solid black;
+		float: left;
+		padding: 0px 10px 10px 10px;
+	}
+	.col-sm-12 {width: 100%;)
+}
